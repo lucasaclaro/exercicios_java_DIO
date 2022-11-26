@@ -1,5 +1,35 @@
 public class Main {
+
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        System.out.println("Calculator exercise:");
+        Exercicio011MetodosCalculadora.sum(3, 6);
+        Exercicio011MetodosCalculadora.subtraction(9, 8);
+        Exercicio011MetodosCalculadora.multiplication(8, 7);
+        Exercicio011MetodosCalculadora.division(15, 3);
+
+
+        System.out.println("\n Message exercise:");
+        Exercicio011MetodosMensagem.message(24);
+
+
+        System.out.println("\n Loan exercise:");
+        Exercicio011MetodosEmprestimo.calculate(1500, 2);
+
+
+        System.out.println("\n Overload exercise:");
+        Exercicio012Sobrecarga.area(5);
+        Exercicio012Sobrecarga.area(2, 5);
+        Exercicio012Sobrecarga.area(5, 8, 9);
+
+
+
+
+
     }
+
+
+
+
 }
