@@ -23,7 +23,10 @@ public class Main {
         Exercicio012Sobrecarga.area(2, 5);
         Exercicio012Sobrecarga.area(5, 8, 9);
 
-
+        System.out.println("\n Return exercise:");
+        System.out.println("Square area: " + Exercicio013Return.area(5) + ".");
+        System.out.println("Rectangle area: " + Exercicio013Return.area(5, 5) + ".");
+        System.out.println("Trapaze area: " + Exercicio013Return.area(5, 6, 7) + ".");
 
 
 
